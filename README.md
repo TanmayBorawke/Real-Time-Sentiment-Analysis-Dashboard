@@ -62,6 +62,10 @@ Once the server starts, a local link will appear (e.g., http://localhost:8501).
 
 5.Deploy 🚀.
 
+## 🚀 Live Demo
+[Click here to view the deployed app](https://real-time-sentiment-analysis-dashboard-xgphavmub8ntcx46z63nuk.streamlit.app/)
+
+
 👨‍💻 Author
 Tanmay Borawke
 📧 [tanmaymb2710@gmail.com]
