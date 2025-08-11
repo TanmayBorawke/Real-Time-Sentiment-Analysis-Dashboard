@@ -20,12 +20,15 @@ A real-time sentiment analysis tool built with **Streamlit** that fetches live t
 - **NLTK VADER** — For sentiment analysis
 - **Pandas & Matplotlib** — For data processing & visualization
 
+## 🚀 Live Demo
+[Click here to view the deployed app](https://real-time-sentiment-analysis-dashboard-xgphavmub8ntcx46z63nuk.streamlit.app/)
+
 ---
 
 ## 📦 Installation
 
 ### 1️⃣ Clone the repository
-```bash
+
 git clone https://github.com/your-username/sentiment-dashboard.git
 cd sentiment-dashboard
 
@@ -62,11 +65,9 @@ Once the server starts, a local link will appear (e.g., http://localhost:8501).
 
 5.Deploy 🚀.
 
-## 🚀 Live Demo
-[Click here to view the deployed app](https://real-time-sentiment-analysis-dashboard-xgphavmub8ntcx46z63nuk.streamlit.app/)
-
-
 👨‍💻 Author
 Tanmay Borawke
 📧 [tanmaymb2710@gmail.com]
 🔗 https://www.linkedin.com/in/tanmay-borawke-6122-/
+
+---
