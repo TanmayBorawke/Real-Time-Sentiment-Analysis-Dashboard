@@ -1,85 +1,68 @@
-📊 Real-Time Social Media Sentiment Analysis Dashboard
-A real-time sentiment analysis dashboard built with Streamlit that fetches social media posts, analyzes sentiment using NLP, and visualizes results dynamically.
+# 📊 Real-Time Sentiment Analysis Dashboard
 
-🚀 Features
-*Real-time data fetching from Twitter (or sample dataset for demo)
+A real-time sentiment analysis tool built with **Streamlit** that fetches live tweets and classifies them as **Positive**, **Negative**, or **Neutral** using **VADER Sentiment Analysis**.
 
-*Sentiment classification (Positive / Negative / Neutral) using VADER SentimentIntensityAnalyzer
+---
 
-*Interactive dashboard built with Streamlit
+## 🚀 Features
+- ✅ Real-time tweet fetching from Twitter (via snscrape — no paid API key required)
+- ✅ Sentiment classification using **VADER**
+- ✅ Interactive charts and metrics
+- ✅ Web-based dashboard powered by **Streamlit**
+- ✅ Free deployment on **Streamlit Community Cloud**
 
-*Live updating charts for sentiment trends
+---
 
-*Exportable results in CSV format
+## 🛠️ Tech Stack
+- **Python 3.10+**
+- **Streamlit** — For the dashboard
+- **snscrape** — To fetch tweets (no API key needed)
+- **NLTK VADER** — For sentiment analysis
+- **Pandas & Matplotlib** — For data processing & visualization
 
-🛠️ Tech Stack
-*Python 3.10+
+---
 
-*Streamlit – For building the dashboard
+## 📦 Installation
 
-*VADER (NLTK) – For sentiment analysis
-
-*Pandas – Data manipulation
-
-*Matplotlib & Plotly – Data visualization
-
-*Tweepy – (Optional: If using real Twitter API)
-
-📂 Project Structure
-bash
-Copy
-Edit
-📦 sentiment-dashboard
-├── app.py              # Main Streamlit app
-├── requirements.txt    # Python dependencies
-├── data/               # Sample or real-time data
-├── README.md           # Project documentation
-📥 Installation
-1️⃣ Clone this repository
-
-bash
-Copy
-Edit
+### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/your-username/sentiment-dashboard.git
 cd sentiment-dashboard
-2️⃣ Create virtual environment
 
-bash
-Copy
-Edit
+2️⃣ Create a virtual environment (Recommended)
 python -m venv venv
-source venv/bin/activate     # Mac/Linux
-venv\Scripts\activate        # Windows
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
+
 3️⃣ Install dependencies
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
-⚡ Running the App
-bash
-Copy
-Edit
+
+📜 Usage
+Run the Streamlit App
 streamlit run app.py
-📸 Screenshots
-Dashboard Overview
 
-Sentiment Graph
+Once the server starts, a local link will appear (e.g., http://localhost:8501).
 
-📊 Output Example
-| Tweet                         | Sentiment | Score |
-| ----------------------------- | --------- | ----- |
-| "I love this phone!"          | Positive  | 0.91  |
-| "It’s okay, nothing special." | Neutral   | 0.05  |
-| "Worst service ever!"         | Negative  | -0.88 |
+📁 Project Structure
+📦 sentiment-dashboard
+ ┣ 📜 app.py               # Main Streamlit app
+ ┣ 📜 requirements.txt     # Python dependencies
+ ┣ 📜 README.md            # Project documentation
+ ┗ 📂 data                 # (Optional) Store sample CSV files
 
+🌐 Deploy on Streamlit Cloud
 
-🌐 Deployment on Streamlit Cloud
+1.Push your project to GitHub.
 
-1.Push your project to GitHub
+2.Go to share.streamlit.io.
 
-2.Go to Streamlit Cloud
+3.Sign in with GitHub and select your repository.
 
-3.Link your GitHub repository
+4.Set the Main file path to app.py.
 
-4.Deploy and share your app link
+5.Deploy 🚀.
+
+👨‍💻 Author
+Tanmay Borawke
+📧 [tanmaymb2710@gmail.com]
+🔗 https://www.linkedin.com/in/tanmay-borawke-6122-/
